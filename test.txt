@@ -1,0 +1,5 @@
+generate(60)
+sort(dt)
+delete(50)()()()()
+delete(25)()()()()
+clear();
