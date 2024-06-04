@@ -546,7 +546,7 @@ public:
         return out;
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_1(string surname) {
         client_data out;
         for (auto it = clients.begin(); it != clients.end(); it++) {
@@ -597,7 +597,7 @@ public:
         return out;
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_(vector<double> prod) {
         client_data out; int br = 0; int i;
         for (auto it = clients.begin(); it != clients.end(); it++) {
@@ -613,7 +613,7 @@ public:
         return out;
     }
    
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_(int* arr1,int* arr2) {
         int d1 = (arr1[2] * 10000) + (arr1[1] * 100) + arr1[0];
         int d2 = (arr2[2] * 10000) + (arr2[1] * 100) + arr2[0];
@@ -627,12 +627,12 @@ public:
         return out;
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_(int* d1) {
         return select_(d1, d1);
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_1(double d1, double d2) {
         client_data out;
         for (auto it = clients.begin(); it != clients.end(); it++) {
@@ -644,12 +644,12 @@ public:
         return out;
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_1(double d1) {
         return select_1(d1-1, d1+1);
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_(double d1, double d2) {
         client_data out;
         for (auto it = clients.begin(); it != clients.end(); it++) {
@@ -661,12 +661,12 @@ public:
         return out;
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_(double d1) {
         return select_(d1-1, d1+1);
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_(long long int d1,long long int d2) {
         client_data out;
         for (auto it = clients.begin(); it != clients.end(); it++) {
@@ -678,7 +678,7 @@ public:
         return out;
     }
 
-    //важно
+    //ГўГ Г¦Г­Г®
     client_data select_(long long int d1) {
         return select_(d1, d1);
     }
